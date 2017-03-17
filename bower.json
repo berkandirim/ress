@@ -1,9 +1,10 @@
 {
-  "name": "ress",
+  "name": "ress-scss",
+  "version": "0.1.0",
   "description": "A modern CSS reset",
   "main": "dist/ress.min.css",
   "authors": [
-    "Filipe Linhares"
+    "Berkan Dirim"
   ],
   "license": "MIT",
   "keywords": [
@@ -11,7 +12,7 @@
     "reset",
     "normalize"
   ],
-  "homepage": "https://github.com/filipelinhares/ress",
+  "homepage": "https://github.com/berkandirim/ress-scss",
   "ignore": [
     "**/.*",
     "node_modules",

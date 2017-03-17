@@ -1,24 +1,26 @@
 {
-  "name": "ress",
-  "version": "1.2.2",
+  "name": "ress-scss",
+  "version": "0.1.0",
   "description": "A modern CSS reset",
-  "author": "Filipe Linhares",
+  "author": "Berkan Dirim",
   "license": "MIT",
   "main": "dist/ress.min.css",
-  "homepage": "https://github.com/filipelinhares/ress",
+  "homepage": "https://github.com/berkandirim/ress-scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/filipelinhares/ress.git"
+    "url": "https://github.com/berkandirim/ress-scss.git"
   },
   "bugs": {
-    "url": "https://github.com/filipelinhares/ress/issues"
+    "url": "https://github.com/berkandirim/ress/issues"
   },
   "scripts": {
-    "compile": "cssnano ress.css dist/ress.min.css",
+    "compile": "sass ress.scss dist/ress.css",
+    "minify": "cssnano dist/ress.css dist/ress.min.css",
     "test": "stylelint ress.css"
   },
   "devDependencies": {
     "cssnano-cli": "^1.0.3",
+    "sass": "^0.5.0",
     "stylelint": "^6.7.1"
   }
 }
